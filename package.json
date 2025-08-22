@@ -1,0 +1,81 @@
+{
+  "name": "sanity-plugin-woocommerce-sync",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A professional Sanity v4 plugin that allows you to sync your WooCommerce products to Sanity Studio",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./components": {
+      "import": "./dist/components/index.js",
+      "require": "./dist/components/index.js",
+      "types": "./dist/components/index.d.ts"
+    },
+    "./schemas": {
+      "import": "./dist/schemas/index.js",
+      "require": "./dist/schemas/index.js",
+      "types": "./dist/schemas/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "sanity-plugin",
+    "woocommerce",
+    "ecommerce",
+    "sync",
+    "products",
+    "wordpress",
+    "cms",
+    "content-management",
+    "api-integration"
+  ],
+  "author": {
+    "name": "Multidots",
+    "email": "abdulla.patva@multidots.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AbdullaPatva/sanity-plugin-woocommerce-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdullaPatva/sanity-plugin-woocommerce-sync/issues"
+  },
+  "homepage": "https://github.com/AbdullaPatva/sanity-plugin-woocommerce-sync#readme",
+  "peerDependencies": {
+    "sanity": "^3.0.0 || ^4.0.0"
+  },
+  "dependencies": {
+    "@portabletext/block-tools": "^1.0.0",
+    "@sanity/icons": "^3.0.0",
+    "@sanity/studio-secrets": "^3.0.0",
+    "@sanity/ui": "^3.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
