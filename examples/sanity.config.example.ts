@@ -1,5 +1,5 @@
 import { defineConfig } from 'sanity'
-import { woocommerceSyncPlugin } from 'sanity-plugin-woocommerce-sync'
+import { woocommerceSyncPlugin } from '@multidots/sanity-plugin-woocommerce-sync'
 
 export default defineConfig({
   name: 'default',

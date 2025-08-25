@@ -16,7 +16,7 @@ A professional Sanity Studio v4 plugin that allows you to sync your WooCommerce 
 ## 🚀 Installation
 
 ```bash
-npm install sanity-plugin-woocommerce-sync
+npm install @multidots/sanity-plugin-woocommerce-sync
 ```
 
 ## ⚙️ Configuration
@@ -26,7 +26,7 @@ npm install sanity-plugin-woocommerce-sync
 ```typescript
 // sanity.config.ts
 import { defineConfig } from 'sanity'
-import { woocommerceSyncPlugin } from 'sanity-plugin-woocommerce-sync'
+import { woocommerceSyncPlugin } from '@multidots/sanity-plugin-woocommerce-sync'
 
 export default defineConfig({
   // ... other config
