@@ -1,6 +1,6 @@
 {
   "name": "@multidots/sanity-plugin-woocommerce-sync",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A professional Sanity v4 plugin that allows you to sync your WooCommerce products to Sanity Studio",
   "main": "dist/index.js",
