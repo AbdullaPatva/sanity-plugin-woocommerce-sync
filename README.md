@@ -17,6 +17,7 @@ A professional Sanity Studio v4 plugin that allows you to sync your WooCommerce 
 
 ### Plugin Interface
 - [WooCommerce Settings Configuration](https://share.cleanshot.com/VpbFjZCppqK1Plmwmdrb) - Configure API credentials and test connection
+
 (screenshots/api-settings.jpeg)
 
 - [Product Fetch Interface](https://share.cleanshot.com/5vCFQvYzT8Q90DrSm7vR) - Import products with real-time field updates
